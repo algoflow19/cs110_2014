@@ -1,0 +1,47 @@
+[1401951517.843812] starting master server on port 11077...
+[1401951518.854787] received CONNECT request.
+[1401951518.854835] 
+[1401951518.855625] received PING request from 127.0.0.1:22588.
+[1401951518.855651] 
+[1401951523.855841] received PING request from 127.0.0.1:22588.
+[1401951523.855907] 
+[1401951528.856048] received PING request from 127.0.0.1:22588.
+[1401951528.856101] 
+[1401951530.856692] received BLOCK request.
+[1401951530.856750] Block contains 1 txns.
+[1401951530.856781] valid block!
+[1401951530.857923] sending BLOCK request with 1 txns.
+[1401951530.857972] 
+[1401951533.856284] received PING request from 127.0.0.1:22588.
+[1401951533.856338] 
+[1401951537.857374] received BLOCK request.
+[1401951537.857437] Block contains 1 txns.
+[1401951537.857450] valid block!
+[1401951537.859138] sending BLOCK request with 1 txns.
+[1401951537.859178] 
+[1401951538.856501] received PING request from 127.0.0.1:22588.
+[1401951538.856554] 
+[1401951539.857671] received BLOCK request.
+[1401951539.857733] Block contains 1 txns.
+[1401951539.857747] valid block!
+[1401951539.858940] sending BLOCK request with 1 txns.
+[1401951539.858977] 
+[1401951542.858192] received BLOCK request.
+[1401951542.858248] Block contains 1 txns.
+[1401951542.858261] valid block!
+[1401951542.864453] sending BLOCK request with 1 txns.
+[1401951542.864498] 
+[1401951543.856736] received PING request from 127.0.0.1:22588.
+[1401951543.856790] 
+[1401951545.858567] received BLOCK request.
+[1401951545.858625] Block contains 1 txns.
+[1401951545.858638] valid block!
+[1401951545.860124] sending BLOCK request with 1 txns.
+[1401951545.860161] 
+[1401951548.857906] received PING request from 127.0.0.1:22588.
+[1401951548.857954] 
+[1401951548.860835] received BLOCK request.
+[1401951548.860868] Block contains 1 txns.
+[1401951548.860880] valid block!
+[1401951548.864133] sending BLOCK request with 1 txns.
+[1401951548.864506] 

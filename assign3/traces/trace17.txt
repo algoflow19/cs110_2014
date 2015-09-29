@@ -1,0 +1,7 @@
+#
+# trace17.txt - Tests whether or not input redirection works properly on user file.
+#
+
+/bin/echo -e 'tsh> ./mycat < /usr/include/stdio.h'
+./mycat < /usr/include/stdio.h
+

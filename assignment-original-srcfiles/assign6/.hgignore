@@ -1,0 +1,7 @@
+syntax: glob
+*.o
+*~
+Makefile.dependencies
+http-proxy
+http-proxy_soln
+.__afs*

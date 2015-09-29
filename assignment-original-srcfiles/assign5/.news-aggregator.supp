@@ -1,0 +1,38 @@
+{
+   SuppressInflateReset2UnitializedRead
+   Memcheck:Cond
+   fun:inflateReset2
+   fun:inflateInit2_
+}
+{
+   SuppressXMLReadFileLeak
+   Memcheck:Leak
+   fun:malloc
+   fun:xmlGetGlobalState
+   fun:__xmlDefaultSAXHandler
+   fun:xmlDefaultSAXHandlerInit
+   fun:xmlInitParserCtxt
+   fun:xmlNewParserCtxt
+   fun:xmlCreateURLParserCtxt
+   fun:xmlReadFile
+   fun:_ZN7RSSFeed5parseEv
+   fun:_ZL17processSingleFeedRKSt4pairISsSsE
+   fun:_ZZL15processAllFeedsRKSsENKUlvE_clEv
+   fun:_ZNSt17_Function_handlerIFvvEZL15processAllFeedsRKSsEUlvE_E9_M_invokeERKSt9_Any_data
+}
+{
+   SuppressHTMLReadFileLeak
+   Memcheck:Leak
+   fun:malloc
+   fun:xmlGetGlobalState
+   fun:__htmlDefaultSAXHandler
+   fun:htmlNewParserCtxt
+   fun:htmlCreateFileParserCtxt
+   fun:htmlReadFile
+   fun:_ZN12HTMLDocument5parseEv
+   fun:_ZL20processSingleArticleRK7Article
+   fun:_ZZL17processSingleFeedRKSt4pairISsSsEENKUlvE_clEv
+   fun:_ZNSt17_Function_handlerIFvvEZL17processSingleFeedRKSt4pairISsSsEEUlvE_E9_M_invokeERKSt9_Any_data
+   fun:_ZNKSt8functionIFvvEEclEv
+   fun:_ZN10ThreadPool6workerEm
+}

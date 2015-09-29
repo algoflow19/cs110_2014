@@ -1,0 +1,12 @@
+#
+# trace18.txt - Tests the ability to redirect ls to an output file and then use a built-in to view that output file
+#
+
+/bin/echo -e 'tsh> /bin/rm -fr ls-listing.txt'
+/bin/rm -fr ls-listing.txt
+
+/bin/echo -e 'tsh> /bin/ls /usr/include > ls-listing.txt'
+/bin/ls /usr/include > ls-listing.txt
+
+/bin/echo -e 'tsh> /bin/more ls-listing.txt'
+/bin/more < ls-listing.txt

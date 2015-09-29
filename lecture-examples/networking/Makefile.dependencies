@@ -1,0 +1,19 @@
+host-name-resolver-old-school.o: host-name-resolver-old-school.cc \
+ /usr/class/cs110/local/include/string-utils.h
+host-name-resolver-new-school.o: host-name-resolver-new-school.cc \
+ /usr/class/cs110/local/include/string-utils.h
+time-client.o: time-client.cc client-socket.h \
+ /usr/class/cs110/include/socket++/sockstream.h
+web-get.o: web-get.cc /usr/class/cs110/include/socket++/sockstream.h \
+ client-socket.h /usr/class/cs110/local/include/string-utils.h
+time-server-sequential.o: time-server-sequential.cc \
+ /usr/class/cs110/include/socket++/sockstream.h server-socket.h
+time-server-concurrent.o: time-server-concurrent.cc \
+ /usr/class/cs110/include/socket++/sockstream.h server-socket.h
+scrabble-word-finder.o: scrabble-word-finder.cc scrabble-word-finder.h \
+ /usr/class/cs110/local/include/string-utils.h
+scrabble-word-finder-server.o: scrabble-word-finder-server.cc \
+ server-socket.h scrabble-word-finder.h \
+ /usr/class/cs110/include/socket++/sockstream.h
+client-socket.o: client-socket.cc client-socket.h
+server-socket.o: server-socket.cc server-socket.h

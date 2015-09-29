@@ -1,0 +1,4 @@
+search.o: search.c
+list.o: list.c
+copy.o: copy.c
+filedump.o: filedump.c

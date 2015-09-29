@@ -1,0 +1,1 @@
+g++ -g -Wall -pedantic -O0 -std=c++0x -D_GLIBCXX_USE_NANOSLEEP -D_GLIBCXX_USE_SCHED_YIELD -I/usr/class/cs110/include/libxml2 -I/usr/class/cs110/local/include   -c -o news-aggregator.o news-aggregator.cc
